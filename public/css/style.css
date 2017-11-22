@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Nov-2017, 17:30:18
+    Author     : francisco
+*/
+.btn{cursor:pointer;}
+.top-navbar{display: none !important;}
+.breadcrumb-continer, .top-navbar{position: fixed !important;width:100%;left: 0px;z-index: 1;}
+.main{font-size:15px;}
+.content-area{float:right;margin-top:80px;}
+.left-sidebar{padding: 5px;  width: 250px; background-color:#f6f9fb; border-right: solid thin #ccc;
+              position: fixed;
+              float:left;
+              top: 80px;
+              bottom: 0;}
+.signup-box{    background-color: #f8f9fa;padding: 10px;border:solid thin #ccc;}
+.signup-box h3{font-size:20px}
+.login-form{padding: 5px;margin-top: 15px;}
+ul.flat-nav{display:flex;list-style:none;}
+ul.flat-nav li{padding:3px;}ul.flat-nav li.active{background-color:#ccc;}
+.control-panel-box p{margin-bottom:3px}
+.control-panel-box {text-align: center;}
+.control-panel-box img{margin: auto; display: block;}
+.control-panel-box a{display: block;}
+/*blog*/
+.post-title a{text-decoration: none;}
+.post-title{font-size:20px;}
+
+.post-body{display: flex;}
+.post-body img{width: 130px;height: 100px;margin-right: 10px;}
+
+.item{display: flex;margin: 10px 10px 30px 0px;}
+.voting-side{padding: 5px; display: grid;border-right: solid thin #ccc;max-height: 100px;margin-right: 10px;}
+.voting-side a{color:#ccc;}
+.voting-side a.active{color:#007bff;}
+
+/*single*/
+.blog-post-content{display: block;}
+.blog-listing .col-md-8 {
+    width: 100%;
+    padding: 10px;
+}
+.blog-listing {
+
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    margin: 40px 15px 20px 10px;
+}
+.blog-listing .col-md-6:first-of-type i {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.blog-listing .fa-user, .blog-listing .fa-bars, .blog-listing .fa-calendar{margin-right:5px;margin-left:10px;}
+.blog-listing .author-date > div{float:left;}
+.content-area{padding-bottom:50px}
+.comment-form .input-group{margin: 5px 0;}
+/*admin*/
+.content-area .btn-toolbar button{margin:0 8px 8px 0px}
+.content-area td{padding-bottom:0px}
+.admin-title{margin-bottom: 25px;
+             text-align: center;
+             border-bottom: solid thin #ccc;
+             padding-bottom: 15px;}
+.content-area form{width:100%;    padding-bottom: 20px;
+    border-bottom: solid thin #ccc;
+    margin-bottom: 20px;}
+.form-separator{width:100%;}
+.add-photo{font-size: 30px}
+
+
+/*create users*/
+.admin-side .message{display: block;margin-top: .25rem;
+    font-size: .875rem;
+    color: #dc3545;}
+.badge:empty {display:none;}
+.create-post form,.edit-post form{margin-top: 15px;}
+
+/*pagination*/
+.pagination-bar a{cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) { 
+    .top-navbar{display: flex !important;} 
+    .left-sidebar{display: none;} 
+    .breadcrumb-continer{display: none;}
+}
+
+
+
+
+
+
